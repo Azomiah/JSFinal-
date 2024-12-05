@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS 302: JavaScript Fundamentals</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .portfolio-container {
+            width: 800px;
+            background-color: #376B39;  /* Lightened forest green */
+            padding: 20px;
+            color: white;
+        }
+
+        .title {
+            text-align: left;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border: 2px solid black;
+            background-color: #90CE93;
+        }
+
+        .grid-cell {
+            padding: 20px;
+            border: 1px solid black;
+            color: black;
+        }
+
+        .name-cell {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .photo-container {
+            border: 3px solid #3E8A41;
+            background-color: #90CE93;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .photo {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+            border: 1px solid #666;
+        }
+
+        .project-links {
+            list-style-type: decimal;
+            padding-left: 20px;
+        }
+
+        .project-links li {
+            margin: 10px 0;
+        }
+
+        .project-links a {
+            color: purple;
+            text-decoration: none;
+        }
+
+        .project-links a:hover {
+            text-decoration: underline;
+        }
+
+        .portfolio-footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="portfolio-container">
+        <div class="title">CIS 302: JavaScript Fundamentals</div>
+        
+        <div class="content-grid">
+            <div class="grid-cell name-cell">
+                Name:
+            </div>
+            <div class="grid-cell name-cell">
+                Mahir Azam
+            </div>
+            
+            <div class="grid-cell">
+                <div class="photo-container">
+                    <img src="ZoomHeadShot.png" alt="Student Photo" class="photo">
+                </div>
+            </div>
+            
+            <div class="grid-cell">
+                <h3>Links to my JavaScript Projects</h3>
+                <ul class="project-links">
+                    <li><a href="https://azomiah.github.io/tip-calc/" target="_blank">A JavaScript Tip Calculator</a></li>
+                    <li><a href="https://azomiah.github.io/stopwatch/" target="_blank">A JavaScript Stopwatch</a></li>
+                    <li><a href="https://azomiah.github.io/Hangman_CIS302/" target="_blank">A JavaScript Hangman Game</a></li>
+                    <li><a href="https://azomiah.github.io/tic-tac-toe/" target="_blank">A JavaScript Tic-Tac-Toe Game</a></li>
+                    <li><a href="https://azomiah.github.io/JS_Quiz_Site/" target="_blank">A JavaScript Quiz</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="portfolio-footer">
+            My CIS 302 Portfolio
+        </div>
+    </div>
+</body>
+</html>
